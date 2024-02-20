@@ -1,18 +1,50 @@
+
+/* Center align text for the entire application */
 .App {
   text-align: center;
 }
 
+/* Styles for the spinning logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Animation for the spinning logo */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Styles for a custom overlay with a semi-transparent background */
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Set height for the entire container */
+.container {
+  height: 100vh;
+}
+
+/* Styles for the main content area */
+.main-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the main image, covering the entire container */
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styles for the application header */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +56,12 @@
   color: white;
 }
 
+/* Styles for links within the application */
 .App-link {
   color: #61dafb;
 }
 
+/* Keyframes for spinning the logo */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +70,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+
+/* Center align text for the entire application */
+.App {
+  text-align: center;
+}
+
+/* Styles for the spinning logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation for the spinning logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Styles for a custom overlay with a semi-transparent background */
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Set height for the entire container */
+.container {
+  height: 100vh;
+}
+
+/* Styles for the main content area */
+.main-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the main image, covering the entire container */
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styles for the application header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Styles for links within the application */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframes for spinning the logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
